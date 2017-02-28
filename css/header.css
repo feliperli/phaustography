@@ -1,0 +1,9 @@
+header{
+  min-height: 50vh;
+}
+img{
+  max-width: 50vh;
+}
+@media(min-width: 568px){
+
+}
