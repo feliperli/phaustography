@@ -1,9 +1,29 @@
 header{
   min-height: 50vh;
+  background-image: url("images/header.png");
+  background-size: cover;
+  background-position: center;
+}
+h1{
+  font-family: 'Abril Fatface', cursive;
+  font-size: 35px;
+  position: absolute;
+  left: 8px;
+  top: 60px;
+  color: #f762ec;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
+}
+h2{
+  font-family: 'Indie Flower', cursive;
+  font-size: 21.5px;
+  position: absolute;
+  left: 8px;
+  top: 110px;
+  color: #f762ec;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: white;
 }
 img{
   max-width: 50vh;
-}
-@media(min-width: 568px){
-
 }
