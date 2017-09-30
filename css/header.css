@@ -1,6 +1,5 @@
 header{
   min-height: 50vh;
-  background-image: url("images/header.png");
   background-size: cover;
   background-position: center;
 }
@@ -10,7 +9,7 @@ h1{
   position: absolute;
   left: 8px;
   top: 60px;
-  color: #f762ec;
+  color: #000000;
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: white;
 }
