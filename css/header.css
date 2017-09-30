@@ -1,28 +1,19 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat';
 header{
-  min-height: 50vh;
+  min-height: 100vh;
+  background-image: url("../images/Faustop.png");
   background-size: cover;
-  background-position: center;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 50%;
 }
 h1{
-  font-family: 'Abril Fatface', cursive;
-  font-size: 35px;
-  position: absolute;
-  left: 8px;
-  top: 60px;
-  color: #000000;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
+  margin: 0;
+  font-size: 3rem;
 }
 h2{
-  font-family: 'Indie Flower', cursive;
-  font-size: 21.5px;
-  position: absolute;
-  left: 8px;
-  top: 110px;
-  color: #f762ec;
-  -webkit-text-stroke-width: 1px;
-  -webkit-text-stroke-color: white;
-}
-img{
-  max-width: 50vh;
+  margin: 0;
+  font-size: 1.5rem;
 }
